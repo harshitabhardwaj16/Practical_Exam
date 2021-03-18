@@ -1,0 +1,30 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.navbar {
+    height: 80px;
+    padding: 0px;
+}
+
+.navbar-brand {
+    background-color: #2b2e31;
+    height: 80px;
+}
+
+.navbar-brand div {
+    font-family: 'Indie Flower', cursive;
+    font-size: 30px;
+    margin-bottom: 0px;
+}
+
+.navbar-brand p {
+    font-size: small;
+    margin-top: -10px;
+}
+
+.navbar img {
+    height: 80px;
+}

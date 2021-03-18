@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital@1&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a740978d7b.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap" rel="stylesheet">
+   
+    <title>Template</title>
+    <style>
+        body .tranbox{
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            opacity: 0.8;
+            z-index: 0;
+        }
+        body{
+            width: 100%;
+            height: 100vh;
+            background-color: black;
+            opacity: 0.9;
+        }
+        *{
+    margin: 0;
+}
+nav ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+nav ul li{
+    list-style: none;
+    margin-top: 25px;
+    
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-family:  'Lato', sans-serif;;
+
+}
+nav ul li a:hover{
+   color:green;
+   border-bottom: 2px solid green;
+}
+nav{
+    height: 50px;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+}
+nav ul li a i{
+    padding-left: 5px;
+    color: white;
+}
+#box1,#box2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    flex-direction: column;
+    color: white;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 90vh;
+}
+#box1{
+    width: 90%;
+}
+#box2{
+    width: 10%;
+}
+#logo1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#lii i{
+    color: green;
+    font-size: 200px;
+    padding: 10px;
+}
+#liii{
+    height: 220px;
+    text-align: center;
+}
+#liii h1{
+    font-size: 140px;
+}
+#liii h2{
+    font-size: 48px;
+    text-transform: uppercase;
+}
+#box1 .boxvv{
+    font-size: 55px;
+    margin-top: 15px;
+    padding-top: 15px;
+}
+#box1 .bovvv{
+    margin-top: 15px;
+    color: white;
+    border: 2px solid white;;
+    padding: 5px;
+    width: 200px;
+    text-align: center;
+    font-size: 25px;
+    text-decoration: none;
+}
+#box2 #box2222 a i{
+    background-color: green;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+#box2 #box222{
+    height: 400px;
+}
+#box222 div{
+    background-color: white;
+    width: 80px;
+    height: 80px;
+    border: 2px solid white;
+    border-radius: 10px;
+    margin-bottom: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#box222 div a i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: black;
+    font-size: 25px;
+}
+#box222 div a{
+    text-decoration: none;
+}
+#box222 div h2{
+    text-align: center;
+    font-size: 15px;
+}
+    </style>
+</head>
+<body>
+    <div class="tranbox">
+    <nav style="z-index: 1;">
+        <ul>
+            <li><a href="#"><i class="fab fa-artstation" style="padding-right: 6px; color: green;"></i>Avad<span style="color: green;">a:</span></a></li>
+            <li><a href="#" style="color: green; border-bottom: 2px solid green;">Home</a></li>
+            <li><a href="#">Avada Live</a></li>
+            <li><a href="#">Website Buider Features<i class="fas fa-sort-down"></i></a></li>
+            <li><a href="#">Design Elements<i class="fas fa-sort-down"></i></a></li>
+            <li><a href="#">Reviews<i class="fas fa-sort-down"></i></a></li>
+            <li><a href="#">PreBuilt Website</a></li>
+            <li><a href="#">What's New<i class="fas fa-sort-down"></i></a></li>
+        </ul>
+    </nav>
+    <header style="z-index: 999;">
+        <div id="box1">
+            <div id="logo1">
+                <div id="lii"><i class="fab fa-artstation"></i></div>
+                <div id="liii">
+                    <h1>Avad<span style="color: green;">a:</span></h1>
+                    <h2>Website Builder</h2>
+                </div>
+            </div>
+            <h2 class="boxvv">Design Anything, Build Everything</h2>
+            <a href="#" class="bovvv">Buy Avada Now</a>
+        </div>
+        <div id="box2">
+            <div id="box222">
+                <div><a href=""><i class="fas fa-layer-group"></i><h2>Demos</h2></a></div>
+                <div><a href=""><i class="fa fa-shopping-cart" aria-hidden="true"></i><h2>Buy Now</h2></a></div>
+            </div>
+            <div id="box2222">
+                <a href="#"><i class="fab fa-facebook-messenger" style="padding-top: 15px; padding-left: 13px;font-size: 35px; color: white;"></i></a>
+            </div>
+        </div>
+    </header>
+    </div>    
+</body>
+</html>
